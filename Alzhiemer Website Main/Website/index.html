@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alzhiemer Disease</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home">
+        <h1 class="logo">Cognitive Skills</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#games" class="navbar-link" data-nav-link>Games</a>
+          </li>
+          <li>
+            <a href="#feedback" class="navbar-link" data-nav-link>Feedback</a>
+          </li>
+
+          <li>
+            <a href="#developers" class="navbar-link" data-nav-link>Developers</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #hero
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy"
+              class="img-cover">
+          
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Mind Games on</span>
+              <strong>Alzheimer Disease</strong>Improving your Cognitive Skills 
+            </h2>
+
+            <p class="hero-text">
+              Try out your Skills to Improve your Brain Power...
+            </p>
+
+            <div class="btn-group">
+              <a href="#about" class="btn btn-primary blue">Explore</a>
+
+              <a href="#games" class="btn">Games</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Alzheimer Disease</p>
+
+            <h2 class="h2 section-title">“Alzheimer's is not about the past—the successes, the accolades, the accomplishments, Its about he present and the struggle…”</h2>
+
+            <p class="section-text">
+              Alzheimer's disease causes the brain to shrink and brain cells to eventually die. 
+              Alzheimer's disease is the most common cause of dementia — a gradual decline in memory, thinking, behavior and social skills. 
+              These changes affect a person's ability to function.
+            </p>
+
+            <p class="section-text">
+              Memory loss and confusion are the main symptoms. No cure exists, but medication and management strategies may temporarily improve symptoms.
+            </p>
+
+            <a href="#games" class="btn btn-primary blue">Play Games</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Games
+      -->
+
+      <section class="section games" id="games">
+        <div class="container">
+
+          <p class="section-subtitle">Cognitive Games</p>
+
+          <h2 class="h2 section-title">Improve your brain power</h2>
+
+      
+
+          <ul class="game-list">
+            <li>
+              <a href=".\games\reaction-tester\reaction-test.html" class="game-card" style="background-image: url('./assets/images/reactiontime.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle"><br><br>Test your Visual Reflexes</p>
+
+                  <h3 class="h3 card-title">Reaction Time</h3>
+
+                  <span class="btn-link">
+                    <span>Play</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=".\games\tictactoe\tictactoe.html" class="game-card" style="background-image: url('./assets/images/tictactoe.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle"><br><br> get three of the same symbol in a row in any direction wins the game (2 Players)</p>
+
+                  <h3 class="h3 card-title">Tic Tac Toe</h3>
+
+                  <span class="btn-link">
+                    <span>Play</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=".\games\Flip The Card\flipthecard.html" class="game-card" style="background-image: url('./assets/images/flipthecards.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle"><br><br>Remember and Match the Similar Cards</p>
+
+                  <h3 class="h3 card-title">Flip the Card</h3>
+
+                  <span class="btn-link">
+                    <span>Play</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=".\games\Typing-Speed-Game\typing-test.html" class="game-card" style="background-image: url('./assets/images/typingtest.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle"><br><br>How many word can you type fastly ??</p>
+
+                  <h3 class="h3 card-title">Typing Test</h3>
+
+                  <span class="btn-link">
+                    <span>Play</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href=".\games\aim-game\aim-training.html" class="game-card" style="background-image: url('./assets/images/aimtrainer.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle"><br><br>How quickly can you Hit the Targets ??</p>
+
+                  <h3 class="h3 card-title">Aim Training</h3>
+
+                  <span class="btn-link">
+                    <span>Play</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #feedback
+      -->
+
+      <section class="section feedback" id="feedback">
+        <div class="container">
+
+          <div class="feedback-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="feedback-form">
+
+                <input type="text" name="name" placeholder="Name" required class="feedback-input">
+
+                <input type="email" name="email" placeholder="Email" required class="feedback-input">
+
+                <textarea name="message" placeholder="Message" required class="feedback-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="feedback-list">
+
+                <li class="feedback-item">
+
+                  <div class="feedback-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="feedback-item-title">Address</h3>
+
+                    <address class="feedback-item-link">
+                      RAIT, DY Patil University, Nerul, Navi Mumbai
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="feedback-item">
+
+                  <div class="feedback-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="feedback-item-title">Email</h3>
+
+                    <a href="mailto:abc@gmail.com" class="feedback-item-link">abc@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="feedback-item">
+
+                  <div class="feedback-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="feedback-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="feedback-item-link">+91 0123456789</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #developers
+      -->
+
+      <section class="section developers" id="developers">
+        <div class="container">
+
+          <p class="section-subtitle">DEVELOPERS<br><br></p>
+
+          <p class="section-text">
+            Made By : <br><br>
+          </p>
+
+          <ul class="developers-list">
+
+            <li>
+              <p class="section-text">
+                Aaryan Dewangan<br>
+              </p>
+            </li>
+
+            <li>
+              <p class="section-text">
+                Adarsh Ramakrishnan<br>
+              </p>
+            </li>
+              <p class="section-text">
+                Abhishek Prabhu<br>
+              </p>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+</body>
+
+</html>
